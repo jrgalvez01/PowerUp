@@ -18,12 +18,12 @@ public class Robot extends IterativeRobot {
 	
 	@Override
 	public void autonomousInit() {
-		ModeAuton.Init();
+	//	ModeAuton.Init();
 	}
 	
 	@Override
 	public void autonomousPeriodic() {
-		ModeAuton.Periodic();
+	//	ModeAuton.Periodic();
 	}
 	
 	@Override
@@ -38,12 +38,12 @@ public class Robot extends IterativeRobot {
 	
 	@Override
 	public void disabledInit() {
-		ModeDisabled.Init();
+	//	ModeDisabled.Init();
 	}
 	
 	@Override
 	public void disabledPeriodic() {
-		ModeDisabled.Periodic();
+	//	ModeDisabled.Periodic();
 	}
 	
 	@Override

@@ -12,7 +12,7 @@ public class Drivetrain {
 	
 	public static double PowerL;
 	public static double PowerR;
-	
+
 	public static void Init() {
 		MotorRF.setInverted( true );
 		MotorRR.setInverted( true );

@@ -8,6 +8,7 @@ public class DriveArcade {
 	
 	public static double GetThrust() {
 		
+		System.out.println( -DriveStick.getY());
 		return -DriveStick.getY();
 	}
 	

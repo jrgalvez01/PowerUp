@@ -29,8 +29,8 @@ public class Drivetrain {
 	}
 	
 	public static void DriveArcade( double PowerD, double PowerT ) {
-		PowerL = PowerD; // + PowerT ;
-		PowerR = PowerD; // - PowerT ;
+		PowerL = PowerD + PowerT ;
+		PowerR = PowerD - PowerT ;
 	}
 	
 	public static void Stop() {

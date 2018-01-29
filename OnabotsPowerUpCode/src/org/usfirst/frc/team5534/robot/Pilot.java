@@ -17,4 +17,19 @@ public class Pilot {
 		
 		
 	}
+	
+	public static void Galvez() {
+		
+	}
+	
+	
+	public static void Steensma() {
+		double PowerD = DriveArcade.GetThrust();
+		double PowerT = DriveArcade.GetTurn();
+		Drivetrain.DriveArcade( PowerD, PowerT );
+
+	}
+	
+	
+	
 }

@@ -1,6 +1,7 @@
 package org.usfirst.frc.team5534.robot;
 
 import edu.wpi.first.wpilibj.Joystick;
+//import edu.wpi.first.wpilibj.XboxController;
 
 public class DriveArcade {
 
@@ -8,13 +9,12 @@ public class DriveArcade {
 	
 	public static double GetThrust() {
 		
-		System.out.println( -DriveStick.getY());
 		return -DriveStick.getY();
 	}
 	
 	public static double GetTurn() {
 		
-		return DriveStick.getTwist();
+		return DriveStick.getX()/3;
 		
 	}
 }

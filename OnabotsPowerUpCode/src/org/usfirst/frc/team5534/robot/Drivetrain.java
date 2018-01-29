@@ -10,12 +10,12 @@ public class Drivetrain {
 	public static Spark MotorLR = new Spark( Ports.MotorLR );
 	public static Spark MotorRR = new Spark( Ports.MotorRR );
 	
-	public static double PowerL;
-	public static double PowerR;
+	public static double PowerL = 0;
+	public static double PowerR = 0;
 
 	public static void Init() {
-		MotorRF.setInverted( true );
-		MotorRR.setInverted( true );
+		MotorLF.setInverted( true );
+		MotorLR.setInverted( true );
 		
 		PowerL = 0;
 		PowerR = 0;

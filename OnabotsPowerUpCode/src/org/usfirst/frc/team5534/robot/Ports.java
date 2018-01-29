@@ -3,12 +3,17 @@ package org.usfirst.frc.team5534.robot;
 public class Ports {
 
 	// Drivetrain
-	public static int MotorLF = 1;
-	public static int MotorLR = 2;
-	public static int MotorRF = 3;
-	public static int MotorRR = 4;
+	public static int MotorLF = 0;
+	public static int MotorLR = 1;
+	public static int MotorRF = 2;
+	public static int MotorRR = 3;
 	
 	// User Control
 	public static int DriveStick = 0;
 	
+	// Encoders
+	public static int[] DIO_DriveEncoderR = { 0 , 1 };
+	
+	// Sonar
+	public static int[] DIO_SonarFront = { 2 , 3 };
 }

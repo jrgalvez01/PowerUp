@@ -3,7 +3,7 @@ package org.usfirst.frc.team5534.robot;
 import edu.wpi.first.wpilibj.Joystick;
 
 public class Pilot {
-
+	
 	public static Joystick DriveStick = new Joystick( Ports.DriveStick );
 	
 	public static void Init() {
@@ -19,7 +19,16 @@ public class Pilot {
 	}
 	
 	public static void Galvez() {
+		double PowerD = DriveArcade.GetThrust();
+		double PowerT = DriveArcade.GetTurn();
+		Drivetrain.DriveArcade( PowerD, PowerT );
 		
+		if(DriveStick.getRawButton(1)) {
+			Vision.CameraAltitude.setAngle(90);
+		}
+		else {
+			Vision.CameraAltitude.setAngle(0);
+		}
 	}
 	
 	

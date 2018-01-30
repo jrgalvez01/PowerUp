@@ -16,4 +16,9 @@ public class Ports {
 	
 	// Sonar
 	public static int[] DIO_SonarFront = { 2 , 3 };
+	
+	// Camera Periscope
+	public static int CameraAltitude = 8;
+	public static int CameraAzimuth = 9;
+	
 }

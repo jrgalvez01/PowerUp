@@ -7,7 +7,8 @@ public class ModeTeleop {
 	}
 	
 	public static void Periodic() {
-		Pilot.Steensma();
+//		Pilot.Steensma();
+		Pilot.Galvez();
 	}
 	
 }

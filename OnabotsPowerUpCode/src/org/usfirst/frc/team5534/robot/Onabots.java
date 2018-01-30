@@ -13,6 +13,6 @@ public class Onabots {
 		Drivetrain.Periodic();
 		Elevator.Periodic();
 		Dashboard.Periodic();
-		
+		ModeTeleop.Periodic();
 	}
 }

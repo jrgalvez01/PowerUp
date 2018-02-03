@@ -1,6 +1,7 @@
 package org.usfirst.frc.team5534.robot;
 
 import edu.wpi.first.wpilibj.Joystick;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 public class Pilot {
 	
@@ -24,11 +25,19 @@ public class Pilot {
 		Drivetrain.DriveArcade( PowerD, PowerT );
 		
 		if(DriveStick.getRawButton(1)) {
-			Vision.CameraAltitude.setAngle(90);
+		
+		if(Vision.CameraAzimuth.getAngle() != 90) {
+		
+			Vision.CameraAzimuth.setAngle(90);
 		}
 		else {
-			Vision.CameraAltitude.setAngle(0);
+			Vision.CameraAzimuth.setDisabled();
 		}
+	}
+		SmartDashboard.putNumber("CameraAzimuth" , Vision.CameraAzimuth.getAngle());
+
+		
+
 	}
 	
 	

@@ -13,14 +13,22 @@ public class DriveArcade {
 
 	public static Joystick DriveStick = new Joystick( Ports.DriveStick );
 	
+	/**
+	 * GetThrust
+	 * This gets what the y axis on the joystick is doing.
+	 * @return	Y axis of joystick.
+	 */
 	public static double GetThrust() {
 		
 		return DriveStick.getY();
 	}
-	
+	/**
+	 * GetTurn
+	 * @return	X axis of the joystick.
+	 */
 	public static double GetTurn() {
 		
-		return DriveStick.getX()/3;
+		return DriveStick.getX()/3; //why is it divided by 3?
 		
 	}
 }

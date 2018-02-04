@@ -3,9 +3,18 @@ package org.usfirst.frc.team5534.robot;
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-
+/**
+ * Robot class, based on the WPI IterativeRobot class
+ * <p>
+ * @author FRC 5534 Onaway Onabots
+ *
+ */
 public class Robot extends IterativeRobot {
-	
+	/**
+	 * robotInit()
+	 * <p>
+	 * Sets up and initializes settings for the robot.
+	 */
 	@Override
 	public void robotInit() {
 		Onabots.Init();

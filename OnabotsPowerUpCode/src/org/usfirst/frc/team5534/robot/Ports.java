@@ -1,5 +1,14 @@
 package org.usfirst.frc.team5534.robot;
 
+/**
+ * Ports class.
+ * <p>
+ * This class lists the static ports that devices plug into on the 
+ * RoboRIO
+ * 
+ * @author Onaway Onabots 5534
+ *
+ */
 public class Ports {
 
 	// Drivetrain
@@ -8,7 +17,11 @@ public class Ports {
 	public static int MotorRF = 2;
 	public static int MotorRR = 3;
 	
-	// User Control
+	/**
+	 * DriveStick
+	 * <p>
+	 * What usb port the drivers drive stick is on the driver station
+	 */
 	public static int DriveStick = 0;
 	
 	// Encoders

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" author="true" classpath="C:\Users\Russ Riker\wpilib\java\current\lib\ntcore.jar;C:\Users\Russ Riker\wpilib\java\current\lib\wpiutil.jar;C:\Users\Russ Riker\wpilib\java\current\lib\WPILib.jar;C:\Users\Russ Riker\wpilib\java\current\lib\opencv.jar;C:\Users\Russ Riker\wpilib\java\current\lib\cscore.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="org.usfirst.frc.team5534.robot" source="1.8" sourcepath="src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>

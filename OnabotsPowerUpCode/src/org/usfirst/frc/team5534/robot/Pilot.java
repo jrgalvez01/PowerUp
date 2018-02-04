@@ -2,7 +2,12 @@ package org.usfirst.frc.team5534.robot;
 
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-
+/**
+ * <h2>Pilot Class</h2>
+ * Sets up different ways of driving based on who is piloting the 
+ * @author FRC 5534 Onaway Onabots
+ *
+ */
 public class Pilot {
 	
 	public static Joystick DriveStick = new Joystick( Ports.DriveStick );

@@ -33,7 +33,7 @@ public class Drivetrain {
 	}
 	
 	/**
-	 * Peridic() method
+	 * Periodic() method
 	 * @see Onabots#Periodic()
 	 * 
 	 */
@@ -45,8 +45,8 @@ public class Drivetrain {
 	}
 	/**
 	 * DriveArcade method
-	 * @param PowerD	PowerD is used for?
-	 * @param PowerT	PowerT is used for?
+	 * @param PowerD	PowerD is the thrust or y axis on the joystick
+	 * @param PowerT	PowerT is the turn or the x axis on the joystick
 	 */
 	public static void DriveArcade( double PowerD, double PowerT ) {
 		PowerL = PowerD - PowerT ;

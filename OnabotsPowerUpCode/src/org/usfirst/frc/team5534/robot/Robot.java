@@ -13,13 +13,17 @@ public class Robot extends IterativeRobot {
 	/**
 	 * robotInit()
 	 * <p>
-	 * Sets up and initializes settings for the robot.
+	 * Sets up and initializes settings for the robot. These are all done in @see {@link Onabots#Init()}
 	 */
 	@Override
 	public void robotInit() {
 		Onabots.Init();
 	}
-	
+	/**
+	 * robotPeriodic()
+	 * <p>
+	 * This calls @see {@link Onabots#Periodic()}
+	 */
 	@Override
 	public void robotPeriodic() {
 		Onabots.Periodic();

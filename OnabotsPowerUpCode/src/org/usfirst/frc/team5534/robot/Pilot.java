@@ -17,13 +17,20 @@ public class Pilot {
 		//Navigation.reset();
 		
 	}
-	
+	/**
+	 * Periodic method.
+	 * <p>
+	 * Why is this here? It does nothing.
+	 */
 	public static void Periodic() {
 		
 		
 		
 	}
-	
+	/**
+	 * <h2>Pilot.Galvez</h2>
+	 * This is for when Jusus is your Pilot 
+	 */
 	public static void Galvez() {
 		double PowerD = DriveArcade.GetThrust();
 		double PowerT = DriveArcade.GetTurn();

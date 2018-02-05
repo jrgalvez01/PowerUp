@@ -6,7 +6,13 @@ package org.usfirst.frc.team5534.robot;
 
 import edu.wpi.first.wpilibj.Spark;
 
-
+/**
+ * Drivetrain Class
+ * <p>
+ * This will define all the motors and setup some methods.
+ * @author fRC 5534 Onaway Onabots
+ *
+ */
 public class Drivetrain {
 	
 	public static Spark MotorLF = new Spark( Ports.MotorLF );
@@ -33,7 +39,10 @@ public class Drivetrain {
 	}
 	
 	/**
-	 * Periodic() method
+	 * Drivetrain.Periodic() method
+	 * <p>
+	 * This is called from the Onabots.Periodic and updates the motors based on PowerL 
+	 * and PowerR are set to from the driver joystick is doing.
 	 * @see Onabots#Periodic()
 	 * 
 	 */
@@ -52,7 +61,11 @@ public class Drivetrain {
 		PowerL = PowerD + PowerT ;
 		PowerR = PowerD - PowerT ;
 	}
-	
+	/**
+	 * Stop method
+	 * <p>
+	 * Sets the PowerL and PowerR to zero to stop the motors.
+	 */
 	public static void Stop() {
 		PowerL = 0;
 		PowerR = 0;

@@ -226,7 +226,12 @@ public class DigitBoard
 		val = (Math.round(val * 10.0)) / 10.0;
 		return val;
 	}
-
+	/**
+	 * writeDigits
+	 * <p>
+	 * takes a string to display the first 4 characters of the string passed and displays it on the board.
+	 * @param output is a string that will be displayed.
+	 */
 	public void writeDigits(String output)
 	{
 		output += "    "; // Cheap and easy way to clear and prevent index out of bounds errors

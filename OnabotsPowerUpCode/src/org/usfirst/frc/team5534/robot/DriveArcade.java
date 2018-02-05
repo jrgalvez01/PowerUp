@@ -3,7 +3,7 @@ package org.usfirst.frc.team5534.robot;
 import edu.wpi.first.wpilibj.Joystick;
 //import edu.wpi.first.wpilibj.XboxController;
 /**
- * DriveArchade
+ * <h2>DriveArcade</h2>
  * <p>
  * Unknown what this does.  Does not seem to be called or referanced anywhere else.
  * @author Unknown

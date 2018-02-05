@@ -8,7 +8,7 @@ import edu.wpi.first.wpilibj.DigitalInput;
 // THANKS TO TEAM 1504
 
 
-/**
+/*
  * 
  *                              ./+sydmmNNNNNmmdys+/.                              
                         `/sdNNNNNNNNNNNNNNNNNNNNNNNds/`                         

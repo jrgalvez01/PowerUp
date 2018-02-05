@@ -20,7 +20,7 @@ public class DriveArcade {
 	 */
 	public static double GetThrust() {
 		
-		return DriveStick.getY();
+		return -DriveStick.getY();
 	}
 	/**
 	 * GetTurn

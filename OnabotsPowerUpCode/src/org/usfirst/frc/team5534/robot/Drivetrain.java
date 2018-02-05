@@ -49,8 +49,8 @@ public class Drivetrain {
 	 * @param PowerT	PowerT is the turn or the x axis on the joystick
 	 */
 	public static void DriveArcade( double PowerD, double PowerT ) {
-		PowerL = PowerD - PowerT ;
-		PowerR = PowerD + PowerT ;
+		PowerL = PowerD + PowerT ;
+		PowerR = PowerD - PowerT ;
 	}
 	
 	public static void Stop() {

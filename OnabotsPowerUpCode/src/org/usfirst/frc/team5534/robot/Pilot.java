@@ -1,6 +1,7 @@
 package org.usfirst.frc.team5534.robot;
 
 import edu.wpi.first.wpilibj.Joystick;
+<<<<<<< HEAD
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 /**
  * <h2>Pilot Class</h2>
@@ -8,6 +9,9 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
  * @author FRC 5534 Onaway Onabots
  *
  */
+=======
+
+>>>>>>> parent of b148c3c... Take two
 public class Pilot {
 	
 	public static Joystick DriveStick = new Joystick( Ports.DriveStick );
@@ -37,19 +41,11 @@ public class Pilot {
 		Drivetrain.DriveArcade( PowerD, PowerT );
 		
 		if(DriveStick.getRawButton(1)) {
-		
-		if(Vision.CameraAzimuth.getAngle() != 90) {
-		
-			Vision.CameraAzimuth.setAngle(90);
+			Vision.CameraAltitude.setAngle(90);
 		}
 		else {
-			Vision.CameraAzimuth.setDisabled();
+			Vision.CameraAltitude.setAngle(0);
 		}
-	}
-		SmartDashboard.putNumber("CameraAzimuth" , Vision.CameraAzimuth.getAngle());
-
-		
-
 	}
 	
 	
